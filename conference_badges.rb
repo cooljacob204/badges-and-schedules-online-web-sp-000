@@ -7,7 +7,7 @@ end
 def batch_badge_creator(names)
   formatted_names = []
   names.each do |i|
-    formatted_names.push("Hello, my name is #{i}.")
+    formatted_names.push(badge_maker(i))
   end
   return formatted_names
 end
@@ -20,4 +20,5 @@ def assign_rooms(speakers)
   return assinged_rooms
 end
 
-printer()
+printer(names)
+  puts batch_badge_creator(names)
