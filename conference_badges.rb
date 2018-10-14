@@ -11,3 +11,10 @@ def batch_badge_creator(names)
   end
   return formatted_names
 end
+
+def assign_rooms(speakers)
+  assinged_rooms = []
+  speakers.each_with_index do |index, i|
+    assinged_rooms.push()
+  end
+end
